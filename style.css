@@ -1,0 +1,127 @@
+body {
+    background:lightblue ; 
+}
+
+#boxs {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    color: blue; 
+    font-family: fantasy; 
+    font-size: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+     
+}
+
+#choices {
+    color:white;
+    background: blue;
+    width: 200px;   
+    height: 35px; 
+    font-size: 25px; 
+    font-family: fantasy; 
+}
+
+#choicediv {
+    text-align: center; 
+    padding-top: 20px; 
+}
+
+#cal {
+    background: blue; 
+    font-family: fantasy; 
+    font-size: 25px;
+    color: white; 
+    width: 125px;   
+    height: 35px; 
+    
+}
+
+ /* 
+ .boxone  {
+    color: blue; 
+    font-family: Impact; 
+    font-size: 20px;
+    display: inline-block;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.boxtwo  {
+    color: blue; 
+    font-family: Impact; 
+    font-size: 20px;
+    display: inline-block;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.answer { 
+    color: blue; 
+    font-family: Impact;    
+    font-size: 20px;
+    display: inline-block;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+.symbols { 
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}    
+
+.add:hover {
+    background:blue; 
+    cursor: pointer;
+    transition: all 1s ease; 
+}
+
+.add {
+    text-align: left; 
+    border: blue solid;
+    margin-right: 10px; 
+    margin-left: 10px; 
+}
+
+.minus:hover {
+    background:blue; 
+    cursor: pointer;
+    transition: all 1s ease; 
+}
+
+.minus {
+   text-align: center; 
+   border: blue solid;
+   margin-right: 10px; 
+   margin-left: 10px; 
+}
+
+.divide:hover {
+    background:blue; 
+    cursor: pointer;
+    transition: all 1s ease; 
+}
+
+.divide {
+   text-align: center;
+   border: blue solid; 
+   margin-right: 10px; 
+   margin-left: 10px; 
+}
+
+.times:hover {
+    background:blue; 
+    cursor: pointer;
+    transition: all 1s ease; 
+}
+
+.times {
+    text-align: right; 
+    border: blue solid;
+    margin-right: 10px; 
+    margin-left: 10px; 
+}
+*/ 

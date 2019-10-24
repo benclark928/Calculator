@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head> 
+        <meta charset="utf-8">
+        <title> Calculator thing </title>
+        <link rel="stylesheet" href="/style.css">
+        <script src="/cal.js" charset="utf-8"></script>
+    </head>
+    <body> 
+    <div id="boxs">
+        Number 1
+        <input type="number" id="boxone" value="" >
+        Number 2
+        <input type="number" id="boxtwo" >    
+        Answer
+        <input type="number" id="answer" readonly>
+    </div>
+
+    <div id="choicediv">
+    <select id="choices">
+        <option value="add"> Add </option>
+        <option value="minus"> Minus </option>
+        <option value="divide"> Divide </option>
+        <option value="times"> Times </option>
+    </select>
+
+    <button onclick="calculate()" id="cal">Calculate</button>
+    </div>
+
+    <!--
+        <div class="symbols"> 
+        <div class="add"> 
+            <img src="/add,img.png" alt="" height="100px" width="100px">
+        </div>
+        <div class="minus"> 
+            <img src="/minus.img" alt="" height="100px" width="100px">
+        </div>
+        <div class="divide"> 
+            <img src="/divide (2).img" alt="" height="100px" width="100px">
+        </div>  
+        <div class="times"> 
+             <img src="/times.img" alt="" height="100px" width="100px"> 
+        </div>
+    -->      
+    </div>
+
+    </body>
+</html> 
